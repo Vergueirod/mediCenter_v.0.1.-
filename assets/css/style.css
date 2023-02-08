@@ -1,0 +1,447 @@
+/* Configurações iniciais */
+
+body{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Construção do Header */
+
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+
+}
+
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;*/
+    /* background-color: rgb(255, 255, 255);*/
+}
+
+.logo{ 
+    display: flex;
+    align-items: center;
+}
+
+.menu_header{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul, nav li{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+.lista_menu {
+    display: flex;
+}
+
+.lista_menu li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #727272;
+    
+}
+
+nav .active a, .lista_menu li a:hover{
+    background-color: #39aae1;
+    color: #fff;
+}
+
+/* Primeira section */
+
+.section_01 {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+/* 
+
+.banner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.texto_banner {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.estruct_box{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+.text_h1{
+    font-size: 40px;
+}
+
+.text_h1, .text_p {
+    display: block;
+    color: #fff;
+}
+
+.box_1{
+    background-color: aquamarine;
+
+}
+
+
+.box_2{
+    background-color: tomato;
+}
+
+
+.box_3{
+    background-color: brown;
+    
+}
+
+.box_1, .box_2, .box_3 {
+    display: block;
+    width: 310px;
+    
+}
+
+*/
+
+.column{
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text_h1{
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0px 1px, 0px #555;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    max-width: 350px;
+
+}
+
+.text_h2{
+    font-size: 19px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    margin-top: 30px;
+    max-width: 350px;
+}
+
+.banner_box {
+    height: 210px;
+    display: flex;
+}
+
+.box_1, .box_2, .box_3 {
+    flex: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_1{
+    background-color: #39aae1;
+
+}
+
+
+.box_2{
+    background-color: #0079c7;
+}
+
+
+.box_3{
+    background-color: #2b4c99;
+    
+}
+
+.box_1, .box_2, .box_3{
+    padding: 10px;
+}
+
+.box_1 a, .box_2 a {
+    width: 98px;
+    display: flex;
+    justify-content: center;
+}
+
+.box_button{
+    display: block;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;    
+}
+
+.teste_flex_1, .teste_flex_2, .teste_flex_3{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(129, 127, 127);
+    margin-top: 10px;
+}
+
+/* PARTE DE BAIXO DO BANNER */
+
+.section_02{
+    display: flex;
+    justify-content: center;
+}
+
+.container_section_02 {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 990px;
+}
+
+.news_div_01{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.dp_div{
+    flex: 1;
+}
+
+.row_02{
+    flex: 1;
+    display: flex;
+}
+
+.row02_intern_01, .row02_intern_02{
+    flex: 1;
+
+}
+
+.row02_intern_02{
+}
+
+.row_03{
+    flex: 1;
+    display: flex;
+}
+
+.row03_intern_01, .row03_intern_02{
+    flex: 1;
+
+}
+
+.row03_intern_02{
+
+}
+
+.title_box_1,.title_box_dp, .title_box_ap  {
+    font-size: 20px;
+}
+
+.barra{
+    background-color: #0079c7;
+    width: 70px;
+    height: 3px;
+}
+
+.datas{
+    display: flex;    
+}
+
+.h1_data, .min{
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.h1_data{
+    background-color:#2b4c99;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.min{
+    background-color: #39aae1;
+    margin-left: 10px;
+}
+
+.img_news{
+    width: 90%;
+    height: 150px;
+    background-color: rgb(239, 239, 239);
+    border: 2px solid #000;
+}
+.title_news{
+
+}
+
+.body.news{
+
+}
+
+.title_box_dp{
+
+}
+
+.title_box_ap{
+
+}
+
+.dp_historico{
+    display: flex;
+    flex-direction: column;
+    height: 435px;
+}
+
+.dp_historico_box01, .dp_historico_box02, .dp_historico_box03{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+
+} 
+
+.dp_box01_01, .dp_box01_02, .dp_box02_01, .dp_box02_02, .dp_box03_01, .dp_box03_02{
+    height: 120px;
+    width: 120px;
+    background-color: #39aae1;
+}
+
+.ap_contact{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ap_contact_box02, .ap_contact_box03, .ap_contact_box04{
+    flex: 1;
+}
+
+.ap_contact_box01{
+    flex: 2;
+}
+
+.barra_ap {
+    width: 100%;
+    border-bottom: 1px solid #727272;
+}
+
+.footer{
+    background-color: #000;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer_container{
+    width: 990px;
+    display: flex;
+}
+
+.footer_box1, .footer_box2, .footer_box3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.footer_box_color1, .footer_box_color2, .footer_box_color3{
+    color: #fff;
+    height: 80px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+
+}
+
+.footer_box_color1{
+    background-color: #39aae1;
+}
+
+.footer_box_color2{
+    background-color: #0079c7;
+}
+
+.footer_box_color3{
+    background-color: #2b4c99;
+}
+
+.footer_h1{
+    font-size: 10px;
+}
+
+.footer_p{
+    font-size: 10px;
+
+}
+
+.footer_width1{
+    color: #fff;
+    height: 80px;
+
+}
+
+.footer_text{
+    color: lightgray;
+    height: 80px;
+    font-size: 12px;
+}
+
+.footer_end_num{
+    padding-right: 30px;
+    color: lightgray;
+    height: 160px;
+}
+
+.teste_end_num_1, .teste_end_num_2, .teste_end_num_3{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.last_date{
+    color: #39aae1;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
