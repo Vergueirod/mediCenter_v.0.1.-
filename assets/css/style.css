@@ -444,4 +444,64 @@ nav .active a, .lista_menu li a:hover{
     font-size: 10px;
     margin-top: -10px;
 }
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mmLine{
+    height: 2px;
+    background-color: #0079c7;
+}
+@media (max-width: 425px){
+ 
+    .lista_menu{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    header{
+        height: auto;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+}
+
+
+
+
+
+
+
+/*
+
+display: none;
+position: absolute;
+left: 0;
+width: 100%;
+background-color: #fff;
+
+*/
+
+
+
+
+
+
+
+
+
+
 
